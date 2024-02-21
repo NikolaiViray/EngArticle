@@ -1,0 +1,102 @@
+html{
+    box-sizing: border-box;
+}
+
+*{
+    box-sizing: inherit;
+    /* border: solid red; */
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.external{
+    background-color: aqua;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    border: solid black ;
+}
+.imgExt{
+    width: 70px;
+    height: 55px;
+   margin-top: 7px;
+   margin-bottom: 5px;
+   margin-left: 10px;
+   margin-right: 20px;
+}
+.str{
+    
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.pExt{
+    margin: 20px;
+    font-size: 20px;
+}
+
+.mainBodyDiv{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.main.body{
+    /* border: solid grey; */
+    margin: 100px;
+    margin-left: 500px;
+    width: 790px;
+}
+
+.buttons{
+    display: flex;
+}
+.send,
+.download{
+    width: 25px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.But.bookMark{
+    width: 50px;
+    margin-top: 10px;
+}
+.paragraph{
+    border-top: solid #ccc;
+    border-bottom: solid #ccc;
+}
+
+.img.div{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.img.scientist{
+    width: 782px;
+}
+
+.unrelated{
+    margin-right: 200px;
+    border-top: solid grey;
+    margin-top: 100px;
+}
+
+.excessDiv{
+    border-bottom: solid #ccc;
+}
+
+.link{
+    background-color: lightskyblue;
+    margin: 5px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+.last-unrelated{
+    border: solid #ccc;
+    margin-top: 20px;
+    padding: 20px;
+}
